@@ -1,0 +1,85 @@
+1. Case 1: PRODSUP-001:
+
+Hi Harry ,
+
+We have checked your GitHub account (https://github.com/mtedone/podam) and do not found circle.yml
+Circle.yml is an important file for the CircleCI server. It stores instructions on what to do with your repository and where.
+We request you to check it and create the same.
+Refer below lonk for more details - 
+https://circleci.com/docs/1.0/config-sample/#nav-button
+
+CircleCI can collect test metadata from JUnit XML files.
+
+If you’re using inferred test steps for Ruby or Python then CircleCI automatically collects test metadata, though for RSpec, Minitest, and Django you’ll need to do some configuration to to enable the formatters.
+We request you to go through below link which contain all steps to resolve your query about why test results tab is empty even though CircleCI got green build after adding the project.
+
+Link - https://circleci.com/docs/1.0/test-metadata/#java-junit-results-with-maven-surefire-plugin 
+
+Link consist of Metadata collection in custom test steps , automatic collection and other configuration details.
+We advise you to revert in case any details are missing or you want further input to clarify on any settings.
+
+Thanks,
+Amol Raut.
+
+------------------------------------------------------------------------------------------------------------------
+
+2. Case 2: PRODSUP-002:
+
+Hi Jolene,
+
+Can you please provide more information about the issue you are having?
+Are builds getting triggered by GitHub pushes?
+Are you seeing any errors in the build output?
+We request you to provide output or error message that you are receiving so that we will investigate on source code written.
+
+Thanks,
+Amol Raut.
+
+------------------------------------------------------------------------------------------------------------------
+
+3. Case 3: PRODSUP-003:
+
+Hi Adam ,
+We will like to help you in understanding circleCI in more simple language.
+
+But , I will start with your second question on why CircleCI dont support .NET .
+
+.NET is a Windows technology, and CircleCi is running on Linux machines. 
+Hence , our current functionality do not support any windows technology . 
+
+Now let me start about circleCI and why it is useful in current IT market .
+
+CircleCI provides an amazing (and free, which is important for most freelancers) service that allows you to utilize continuous integration in your development process. Continuous integration is a common practice in development that involves integrating code into a shared repository like GitHub.
+
+CircleCI automatically runs a series of steps every time that it detects a change to your repository.
+So basically it does continious integration .
+
+Continuous Integration means multiple developers pushing small, frequent changes to a shared repository or ‘master’. 
+and CicrleCI integrates those codes automatically and no manual intervetion required.
+
+If your tests pass, then you can deploy your code to development, staging, production, etc. automatically.
+A CircleCI build consists of a series of steps. Generally, they’re:
+
+a. Dependencies
+b. Testing
+c. Deployment
+
+Summarizing above in more simpler terms -
+
+1. CircleCI do not works with Windows technologies.
+2. CircleCI has advantages of integrating code shared by multiple developers.
+3. CircleCI made easier deploying code to development, staging, production automatically.
+
+If you need further input kindly revert us or may contact to our hotline nos.
+
+Thanks,
+Amol Raut.
+
+------------------------------------------------------------------------------------------------------------------
+
+Below are the links details -
+
+GitHub account - 
+https://github.com/amolraut1234/test-project
+CircleCI account - 
+https://circleci.com/gh/amolraut1234
