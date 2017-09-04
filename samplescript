@@ -1,1 +1,5 @@
 #This is demo 
+# Sample shell script to dispaly current date and calender of current month.
+date
+cal `date "+5m 20%y"`
+echo 'Calender for the current month shown above'
